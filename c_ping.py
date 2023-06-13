@@ -1,6 +1,6 @@
 import time
 from socket import *
-
+#Objeto usado para enviar e receber dados AF_INET -> Define o tipo de endereçamento, sendo IPV4, SOCK_DGRAM -> Define o tipo de socket a ser criado, sendo UDP
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 
 clientAddress = ('127.0.0.1', 50000)
